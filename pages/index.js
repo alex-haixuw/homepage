@@ -4,8 +4,11 @@ import {
   Container,
   Heading,
   Box,
+  Flex,
   SimpleGrid,
   Button,
+  Stack,
+  Spacer,
   List,
   ListItem,
   useColorModeValue,
@@ -17,7 +20,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram,IoMail, IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -45,7 +48,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Haixu Alex Wang
           </Heading>
-          <p>Ph.D. Candidate @ Simon Fraser University</p>
+          <p>Ph.D. Candidate @ Department of Statistics, Simon Fraser University</p>
         </Box>
         <Box
           flexShrink={0}
@@ -64,7 +67,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/takuya.jpg"
+              src="/images/backsquare.JPG" 
               alt="Profile image"
               borderRadius="full"
               width="100%"
@@ -79,147 +82,98 @@ const Home = () => (
           About me
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link>
-          </NextLink>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">Dev as Life</Link>
-          </NextLink>
-          &quot; has more than 100k subscribers.
+          Haixu or Alex is a PhD student in the
+          <NextLink href="https://www.sfu.ca/stat-actsci.html" passHref scroll={false}>
+            <Link> Department of Statistics and Acturial Science</Link>
+          </NextLink> at Simon Fraser University, Burnaby, B.C., Canada. He's currently working under the supervision of  <NextLink href="https://www.sfu.ca/science/stat/cao/" passHref scroll={false}>
+            <Link> Dr. Jiguo Cao</Link>
+          </NextLink>. Haixu has a passion for research and solving real-world problems. 
+
+  
         </Paragraph>
-        <Box align="center" my={4}>
+
+        <Flex>
+        <Box  my={4} >
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              My works
             </Button>
           </NextLink>
         </Box>
+        <Spacer />
+        <Box   my={4}>
+          <NextLink href="/posts" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              My posts
+            </Button>
+          </NextLink>
+        </Box>
+
+        <Spacer />
+        <Box my={4}>
+          <NextLink href="/cv" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              My CV
+            </Button>
+          </NextLink>
+        </Box>
+        </Flex>
+
+        
       </Section>
+
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
-        </Heading>
-        <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
-        </BioSection>
-        <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
-        </BioSection>
-        <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
-        </BioSection>
-        <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
-        </BioSection>
-      </Section>
-
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          I ♥
+          Research/work interests
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+        
         </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          I enjoy
+        </Heading>
+        <Paragraph>
+        Sports, Music, Digital Drawing, Programming, History
+        </Paragraph>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Connect me on
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/alex-haixuw" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @alex-haixuw
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @inkdrop_app (English)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
-              >
-                @craftzdog
-              </Button>
-            </Link>
-          </ListItem>
+        
+        <ListItem>
+        
+        <Button
+        variant="ghost"
+        colorScheme="teal"
+        leftIcon={<IoMail />}
+        >
+        haixuw@sfu.ca
+        </Button>
+        
+        </ListItem>
+        
+         
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel (&gt;100k subs)
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
-        </SimpleGrid>
 
-        <Box align="center" my={4}>
-          <NextLink href="/posts" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
     </Container>
   </Layout>
