@@ -5,9 +5,9 @@ import {
   Heading,
   Box,
   Flex,
-  SimpleGrid,
+  
   Button,
-  Stack,
+ 
   Spacer,
   List,
   ListItem,
@@ -16,13 +16,9 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram,IoMail, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import { IoMail, IoLogoGithub } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -85,7 +81,7 @@ const Home = () => (
           Haixu is a PhD student in the
           <NextLink href="https://www.sfu.ca/stat-actsci.html" passHref scroll={false}>
             <Link> Department of Statistics and Acturial Science</Link>
-          </NextLink> at Simon Fraser University, Burnaby, B.C., Canada. He's currently working under the supervision of  <NextLink href="https://www.sfu.ca/science/stat/cao/" passHref scroll={false}>
+          </NextLink> at Simon Fraser University, Burnaby, B.C., Canada. He&apos;s currently working under the supervision of  <NextLink href="https://www.sfu.ca/science/stat/cao/" passHref scroll={false}>
             <Link> Dr. Jiguo Cao</Link>
           </NextLink>. Haixu has a passion for research and solving real-world problems. 
 

@@ -1,28 +1,33 @@
 {
-  "name": "craftzdog-homepage",
+  "name": "haixuwang-homepage",
+  "homepage":"https://alex-haixuw.github.io/homepage",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "Haixu's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
     "prettier": "prettier --write .",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "keywords": [],
   "author": "Takuya Matsuyama",
   "license": "MIT",
   "dependencies": {
+    "-": "0.0.1",
     "@chakra-ui/icons": "^1.1.7",
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "framer-motion": "^6.3.0",
+    "gh-pages": "^4.0.0",
     "next": "^12.1.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-pdf": "^5.7.2",
+    "save-dev": "0.0.1-security",
     "three": "^0.139.2"
   },
   "devDependencies": {

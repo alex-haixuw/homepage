@@ -1,9 +1,5 @@
-import React, { useState } from 'react';
-import { Document, Page,pdfjs } from 'react-pdf';
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import { WorkGridItem } from '../components/grid-item'
+import React from 'react';
+import { Heading} from '@chakra-ui/react'
 
 const myComponent = ()=>{
 return (
@@ -13,10 +9,10 @@ return (
 <Heading as="h3" fontSize={20} mb={4}>
         CV
       </Heading>
-    <iframe
+    <embed
             style={{ width: "100%", height: "1000px" }}
-            src={"../public/haixuwang_cv.pdf"}
-            type='application/pdf'
+            src={"https://drive.google.com/file/d/1B17slZPCBhqR6TPSP9CzB8-tJva6j-JM/view?usp=sharing"}
+            //type='application/pdf'
             title='CV'
           />
 </div>
