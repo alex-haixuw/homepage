@@ -37,15 +37,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hello, I&apos;m a researcher in statistics and machine learning!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Haixu Alex Wang
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Ph.D. Candidate @ Simon Fraser University</p>
         </Box>
         <Box
           flexShrink={0}
@@ -76,7 +76,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About me
         </Heading>
         <Paragraph>
           Takuya is a freelance and a full-stack developer based in Osaka with a
