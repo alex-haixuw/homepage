@@ -46,7 +46,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Haixu Alex Wang
+            Haixu (Alex) Wang
           </Heading>
           <p>Ph.D. Candidate @ Department of Statistics, Simon Fraser University</p>
         </Box>
@@ -67,9 +67,9 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/backsquare.JPG" 
+              src="/images/backsquare.png" 
               alt="Profile image"
-              borderRadius="full"
+              //borderRadius="full"
               width="100%"
               height="100%"
             />
@@ -82,7 +82,7 @@ const Home = () => (
           About me
         </Heading>
         <Paragraph>
-          Haixu or Alex is a PhD student in the
+          Haixu is a PhD student in the
           <NextLink href="https://www.sfu.ca/stat-actsci.html" passHref scroll={false}>
             <Link> Department of Statistics and Acturial Science</Link>
           </NextLink> at Simon Fraser University, Burnaby, B.C., Canada. He's currently working under the supervision of  <NextLink href="https://www.sfu.ca/science/stat/cao/" passHref scroll={false}>
@@ -94,9 +94,9 @@ const Home = () => (
 
         <Flex>
         <Box  my={4} >
-          <NextLink href="/works" passHref scroll={false}>
+          <NextLink href="/publications" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My works
+              Publications
             </Button>
           </NextLink>
         </Box>
@@ -104,14 +104,23 @@ const Home = () => (
         <Box   my={4}>
           <NextLink href="/posts" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My posts
+              Posts
             </Button>
           </NextLink>
         </Box>
 
         <Spacer />
         <Box my={4}>
-          <NextLink href="/cv" passHref scroll={false}>
+          <NextLink href="/works" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              Works
+            </Button>
+          </NextLink>
+        </Box>
+
+        <Spacer />
+        <Box my={4}>
+          <NextLink href="/CV" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My CV
             </Button>
@@ -128,7 +137,14 @@ const Home = () => (
           Research/work interests
         </Heading>
         <Paragraph>
-        
+        <ul>
+          <li>Functional data analysis</li>
+          <li>Neural networks</li>
+          <li>Machine Learning</li>
+          <li>Network/Graph Analaysis</li>
+          <li>Bayesian theories/methods</li>
+          <li>Interactive statistical/ML tools</li>
+        </ul>
         </Paragraph>
       </Section>
 
