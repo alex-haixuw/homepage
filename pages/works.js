@@ -15,15 +15,16 @@ import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
 const Works = () => (
-  <Layout title="Works">
+  
+  <Layout title="Publications">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+        Publications
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
+          <WorkGridItem id="inkdrop" title="Inkdddrop" thumbnail={thumbInkdrop}>
             A Markdown note-taking app with 100+ plugins, cross-platform and
             encrypted data sync support
           </WorkGridItem>

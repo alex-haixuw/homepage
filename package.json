@@ -1,6 +1,6 @@
 {
   "name": "haixuwang-homepage",
-  "homepage":"https://alex-haixuw.github.io/homepage",
+  "homepage": "https://alex-haixuw.github.io/homepage",
   "version": "1.0.0",
   "description": "Haixu's website",
   "scripts": {
@@ -8,8 +8,8 @@
     "build": "next build",
     "start": "next start",
     "prettier": "prettier --write .",
-    "lint": "next lint",
-    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
+    "lint": "next lint"
+    
   },
   "keywords": [],
   "author": "Takuya Matsuyama",
@@ -31,6 +31,7 @@
     "three": "^0.139.2"
   },
   "devDependencies": {
+    "babel-plugin-transform-define": "^2.0.1",
     "eslint": "^8.13.0",
     "eslint-config-next": "^12.1.5",
     "prettier": "^2.6.2"
