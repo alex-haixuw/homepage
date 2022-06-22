@@ -7,11 +7,11 @@ import {
   AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, WorkImage, Meta } from '../../components/post'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
-const Work = () => (
+const Post = () => (
   <Layout title="Inkdrop">
     <Container>
       <Title>
@@ -60,5 +60,5 @@ const Work = () => (
   </Layout>
 )
 
-export default Work
+export default Post
 export { getServerSideProps } from '../../components/chakra'

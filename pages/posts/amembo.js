@@ -101,5 +101,5 @@ const Work = () => (
   </Layout>
 )
 
-export default Work
+export default Post
 export { getServerSideProps } from '../../components/chakra'
