@@ -4,8 +4,8 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
 
-import thumbPortfolio from '../public/images/contents/youtube-how-to-build-portfolio.jpg'
 
+import allspiketrain from '../public/images/posts/allspiketrain.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -17,7 +17,7 @@ const Works = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
         
-          <GridItem title='test' thumbnail={thumbPortfolio} href='www.google.ca'>
+          <GridItem title='test' thumbnail={allspiketrain} href='www.google.ca'>
             
           </GridItem>
           

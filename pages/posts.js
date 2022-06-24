@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { PostGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import spiketrain from '../public/images/posts/allspiketrain.png'
 const Posts = () => (
   
   <Layout title="Posts">
@@ -14,9 +14,8 @@ const Posts = () => (
 
       <SimpleGrid columns={[1, 2, 2]} gap={6}>
         <Section>
-          <PostGridItem id="inkdrop" title="Inkdddrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <PostGridItem id="Directednetwork" title="Directednetwork" thumbnail={spiketrain}>
+            Network of Neurons
           </PostGridItem>
         </Section>
       </SimpleGrid>
