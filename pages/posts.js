@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { PostGridItem } from '../components/grid-item'
 
 import spiketrain from '../public/images/posts/allspiketrain.png'
+
 const Posts = () => (
   
   <Layout title="Posts">

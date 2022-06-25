@@ -9,7 +9,6 @@
     "start": "next start",
     "prettier": "prettier --write .",
     "lint": "next lint"
-    
   },
   "keywords": [],
   "author": "Takuya Matsuyama",
@@ -22,10 +21,12 @@
     "@emotion/styled": "^11.8.1",
     "framer-motion": "^6.3.0",
     "gh-pages": "^4.0.0",
+    "mathjax": "^3.2.2",
     "next": "^12.1.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
+    "react-mathjax": "^1.0.1",
     "react-pdf": "^5.7.2",
     "save-dev": "0.0.1-security",
     "three": "^0.139.2"
