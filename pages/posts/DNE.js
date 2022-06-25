@@ -4,8 +4,8 @@ import {
     List,
     ListItem,
     Image,
-    Stack,
-    AspectRatio
+    Stack
+   
   } from '@chakra-ui/react'
   import { Title,  Meta } from '../../components/post'
   import Layout from '../../components/layouts/article'
