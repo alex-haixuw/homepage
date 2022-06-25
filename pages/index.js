@@ -59,13 +59,13 @@ const Home = () => (
             w="100px"
             h="100px"
             display="inline-block"
-            borderRadius="full"
-            overflow="hidden"
+            //borderRadius="full"
+            //overflow="hidden"
           >
             <ProfileImage
               src="/images/backsquare.png" 
               alt="Profile image"
-              borderRadius="full"
+              //borderRadius="full"
               width="100%"
               height="100%"
             />

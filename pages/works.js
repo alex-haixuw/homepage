@@ -5,7 +5,7 @@ import { GridItem } from '../components/grid-item'
 
 
 
-import allspiketrain from '../public/images/posts/allspiketrain.png'
+import Rpic from '../public/images/R.jpg'
 
 const Works = () => (
   <Layout title="Works">
@@ -17,7 +17,7 @@ const Works = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
         
-          <GridItem title='test' thumbnail={allspiketrain} href='www.google.ca'>
+          <GridItem title='PCODE: R package' thumbnail={Rpic} href='https://pcode.shinyapps.io/pcode/'>
             
           </GridItem>
           
