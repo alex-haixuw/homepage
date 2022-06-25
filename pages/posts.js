@@ -15,8 +15,8 @@ const Posts = () => (
 
       <SimpleGrid columns={[1, 2, 2]} gap={6}>
         <Section>
-          <PostGridItem id="Directednetwork" title="Directednetwork" thumbnail={spiketrain}>
-            Network of Neurons
+          <PostGridItem id="Directednetwork"thumbnail={spiketrain}>
+           Directed network of neurons
           </PostGridItem>
         </Section>
       </SimpleGrid>
