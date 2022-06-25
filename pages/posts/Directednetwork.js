@@ -1,16 +1,12 @@
 import {
     Container,
     Badge,
-    Link,
     List,
     ListItem,
-    AspectRatio,
     Image,
     Stack
   } from '@chakra-ui/react'
-  import { ExternalLinkIcon } from '@chakra-ui/icons'
-  import { Title, PostImage, Meta } from '../../components/post'
-  import P from '../../components/paragraph'
+  import { Title,  Meta } from '../../components/post'
   import Layout from '../../components/layouts/article'
 
 
