@@ -21,7 +21,7 @@ const Posts = () => (
         </Section>
 
           <Section>
-          <PostGridItem id="Directednetwork"thumbnail={spiketrain}>
+          <PostGridItem id="DNE"thumbnail={spiketrain}>
            Directed network of neurons
           </PostGridItem>
         </Section>
