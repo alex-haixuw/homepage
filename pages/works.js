@@ -18,7 +18,7 @@ const Works = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
         
           <GridItem title='PCODE: R package' thumbnail={Rpic} href='https://pcode.shinyapps.io/pcode/'>
-            
+            Estimating parameters of ordinary differential equation system. 
           </GridItem>
           
         </SimpleGrid>

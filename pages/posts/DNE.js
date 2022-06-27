@@ -7,8 +7,9 @@ import {
     Stack
    
   } from '@chakra-ui/react'
-  import { Title,  Meta } from '../../components/post'
+  import { Title,  Meta} from '../../components/post'
   import Layout from '../../components/layouts/article'
+  import Paragraph from '../../components/paragraph'
 
 
   const Post = () => (
@@ -29,18 +30,26 @@ import {
                       <Meta>Dimension reduction</Meta>
                   </ListItem>
               </List>
+            <h1><b>About this problem</b></h1>
+            <Paragraph>
+                We proposed a method to summarize a dynamic network by representing individual nodes, whose connections are dynamic, with multivariate functions. At each time, a single node is represented by a lower-dimensional vector, where the dimension is much less than the number of nodes in the network. This allows easier visualizations or analyses on the time-varying networks.
+            </Paragraph>
 
 
               <br></br>
-
+            <Container maxW ='500px'>
             <Stack direction ='column'>
                 
               
-                 <Image src="/images/posts/animate.gif" boxsize ='200px'/>
-                 <Image src="/images/posts/dne_animate.gif" boxsize ='200px'/>                       
+                 <Image src="/images/posts/animate.gif" />
+                 <Image src="/images/posts/dne_animate.gif"/>                       
 
-                    </Stack>
-                
+            </Stack>
+            </Container>
+            <br></br>
+
+
+            <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
           </Container>
       </Layout>
    
