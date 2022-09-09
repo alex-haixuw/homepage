@@ -9,15 +9,22 @@ const Works = () => (
         Publications
       </Heading>
 
+
+      <Section>
+        <Text>
+        Ithurbide, M., <u>Wang, H.</u>, Fassier, T., Li, Z., Pires, J., Larsen, T., Cao, J., Rupp, R., and Friggens, N., 2022, &quot; Multivariate analysis of milk metabolite measures shows potential for deriving new resilience phenotypes&quot;, submitted to <i>Journal of Dairy Science</i>.
+        </Text>
+      </Section>
+
       <Section>
       <Text>
-        <u>Wang, H.</u> and Cao, J., 2022, &quot;Nonlinear Prediction for Functional Time Series&quot;, submitted to <i>Enviromentrics</i>.
+        <u>Wang, H.</u> and Cao, J., 2022, &quot;Nonlinear Prediction for Functional Time Series&quot;, in revision for <i>Enviromentrics</i>.
       </Text>
       </Section>
 
       <Section>
       <Text>
-        <u>Wang, H.</u> and Cao, J., 2022, &quot;pCODE: Estimating Parameters of ODE Models&quot;, submitted to <i>The R Journal</i>.
+        <u>Wang, H.</u> and Cao, J., 2022, &quot;pCODE: Estimating Parameters of ODE Models&quot;, in revision for <i>The R Journal</i>.
       </Text>
       </Section>
 
@@ -32,15 +39,10 @@ const Works = () => (
       
       <Section>
       <Text>
-        <u>Wang, H.</u> and Cao, J., 2021, &quot;Functional Principal Component Analysis for Multiple Variables on Different Riemannian Manifolds&quot;, submitted to <i>Journal of Agricultural, Biological and Environmental Statistics</i>.
+        <u>Wang, H.</u> and Cao, J., 2021, &quot;Functional Principal Component Analysis for Multiple Variables on Different Riemannian Manifolds&quot;, in revision for <i>Journal of Agricultural, Biological and Environmental Statistics</i>.
       </Text>
       </Section>
 
-      <Section>
-      <Text>
-      <u>Wang, H.</u> and Cao, J., 2020, &quot;Dynamic Network Embedding: an Interpolation Approach&quot;, submitted to <i>Knowledge Discovery and Data Mining 2020 conference</i>.
-      </Text>
-      </Section>
 
       <Section>
       <Text>
