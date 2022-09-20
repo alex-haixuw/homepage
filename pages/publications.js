@@ -11,12 +11,6 @@ const Works = () => (
 
 
       <Section>
-        <Text>
-        Ithurbide, M., <u>Wang, H.</u>, Fassier, T., Li, Z., Pires, J., Larsen, T., Cao, J., Rupp, R., and Friggens, N., 2022, &quot; Multivariate analysis of milk metabolite measures shows potential for deriving new resilience phenotypes&quot;, submitted to <i>Journal of Dairy Science</i>.
-        </Text>
-      </Section>
-
-      <Section>
       <Text>
         <u>Wang, H.</u> and Cao, J., 2022, &quot;Nonlinear Prediction for Functional Time Series&quot;, in revision for <i>Enviromentrics</i>.
       </Text>
@@ -86,6 +80,13 @@ const Works = () => (
       <u>Wang, H.</u>, &quot;Estimating Time-varying Directed Neural Networks&quot;, 2019 International Chinese Statistical Association conference, Tianjin, China, 2019.
       </Text>
       </Section >
+
+      <Section>
+        <Text>
+        Ithurbide, M., <u>Wang, H.</u>, Fassier, T., Li, Z., Pires, J., Larsen, T., Cao, J., Rupp, R., and Friggens, N., 2022, &quot; Multivariate analysis of milk metabolite measures shows potential for deriving new resilience phenotypes&quot;, submitted to <i>Journal of Dairy Science</i>.
+        </Text>
+      </Section>
+
       </SimpleGrid>
 
     </Container>
