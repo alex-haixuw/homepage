@@ -44,6 +44,12 @@ const Works = () => (
       </Text>
       </Section>
 
+      <Section>
+        <Text>
+        Ithurbide, M., <u>Wang, H.</u>, Fassier, T., Li, Z., Pires, J., Larsen, T., Cao, J., Rupp, R., and Friggens, N., 2022, &quot; Multivariate analysis of milk metabolite measures shows potential for deriving new resilience phenotypes&quot;, submitted to <i>Journal of Dairy Science</i>.
+        </Text>
+      </Section>
+
 
 
       <Section delay={0.2}>
@@ -81,11 +87,6 @@ const Works = () => (
       </Text>
       </Section >
 
-      <Section>
-        <Text>
-        Ithurbide, M., <u>Wang, H.</u>, Fassier, T., Li, Z., Pires, J., Larsen, T., Cao, J., Rupp, R., and Friggens, N., 2022, &quot; Multivariate analysis of milk metabolite measures shows potential for deriving new resilience phenotypes&quot;, submitted to <i>Journal of Dairy Science</i>.
-        </Text>
-      </Section>
 
       </SimpleGrid>
 
