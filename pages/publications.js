@@ -40,7 +40,7 @@ const Works = () => (
 
       <Section>
       <Text>
-        <u>Wang, H.</u> and Cao, J., 2020, &quot;Estiamting Time-varying Directed Neural Networks&quot;, <i>Statistics and Computing</i>, <b>20</b>, 1209-1220.
+        <u>Wang, H.</u> and Cao, J., 2020, &quot;Estimating Time-varying Directed Neural Networks&quot;, <i>Statistics and Computing</i>, <b>20</b>, 1209-1220.
       </Text>
       </Section>
 
