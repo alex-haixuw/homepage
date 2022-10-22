@@ -12,13 +12,13 @@ const Works = () => (
 
       <Section>
       <Text>
-        <u>Wang, H.</u> and Cao, J., 2022, &quot;Nonlinear Prediction for Functional Time Series&quot;, in revision for <i>Enviromentrics</i>.
+        <u>Wang, H.</u> and Cao, J., 2022, &quot;Nonlinear Prediction for Functional Time Series&quot;, under invited revision for <i>Enviromentrics</i>.
       </Text>
       </Section>
 
       <Section>
       <Text>
-        <u>Wang, H.</u> and Cao, J., 2022, &quot;pCODE: Estimating Parameters of ODE Models&quot;, in revision for <i>The R Journal</i>.
+        <u>Wang, H.</u> and Cao, J., 2022, &quot;pCODE: Estimating Parameters of ODE Models&quot;, accepted by <i>The R Journal</i>.
       </Text>
       </Section>
 
@@ -33,7 +33,7 @@ const Works = () => (
       
       <Section>
       <Text>
-        <u>Wang, H.</u> and Cao, J., 2021, &quot;Functional Principal Component Analysis for Multiple Variables on Different Riemannian Manifolds&quot;, in revision for <i>Journal of Agricultural, Biological and Environmental Statistics</i>.
+        <u>Wang, H.</u> and Cao, J., 2021, &quot;Functional Principal Component Analysis for Multiple Variables on Different Riemannian Manifolds&quot;, under invited revision for <i>Journal of Agricultural, Biological and Environmental Statistics</i>.
       </Text>
       </Section>
 
