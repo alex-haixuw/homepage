@@ -42,7 +42,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Haixu (Alex) Wang
+            Haixu Wang
           </Heading>
           <p>Ph.D. Candidate @ Department of Statistics, Simon Fraser University</p>
         </Box>
