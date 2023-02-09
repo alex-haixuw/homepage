@@ -12,7 +12,7 @@ const Works = () => (
 
       <Section>
       <Text>
-        <u>Wang, H.</u> and Cao, J., 2022, &quot;Nonlinear Prediction for Functional Time Series&quot;, under invited revision for <i>Enviromentrics</i>.
+        <u>Wang, H.</u> and Cao, J., 2022, &quot;Nonlinear Prediction for Functional Time Series&quot;, accepted by <i>Enviromentrics</i>.
       </Text>
       </Section>
 
@@ -24,7 +24,7 @@ const Works = () => (
 
       <Section>
       <Text>
-      <u>Wang, H.</u> and Cao, J., 2021, &quot;Functional Nonlinear Learning&quot;, submitted to <i>Journal of Computational and Graphical Statistics</i>.
+      <u>Wang, H.</u> and Cao, J., 2021, &quot;Functional Nonlinear Learning&quot;, under invited revision for <i>Journal of Computational and Graphical Statistics</i>.
       
       </Text>
       </Section>
@@ -46,7 +46,7 @@ const Works = () => (
 
       <Section>
         <Text>
-        Ithurbide, M., <u>Wang, H.</u>, Fassier, T., Li, Z., Pires, J., Larsen, T., Cao, J., Rupp, R., and Friggens, N., 2022, &quot; Multivariate analysis of milk metabolite measures shows potential for deriving new resilience phenotypes&quot;, submitted to <i>Journal of Dairy Science</i>.
+        Ithurbide, M., <u>Wang, H.</u>, Fassier, T., Li, Z., Pires, J., Larsen, T., Cao, J., Rupp, R., and Friggens, N., 2022, &quot; Multivariate analysis of milk metabolite measures shows potential for deriving new resilience phenotypes&quot;, under invited revision for <i>Journal of Dairy Science</i>.
         </Text>
       </Section>
 
