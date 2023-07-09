@@ -12,7 +12,7 @@ const Works = () => (
 
       <Section>
       <Text>
-        <u>Wang, H.</u> and Cao, J., 2022, &quot;Nonlinear Prediction for Functional Time Series&quot;, accepted by <i>Enviromentrics</i>.
+        <u>Wang, H.</u> and Cao, J., 2023, &quot;Nonlinear Prediction for Functional Time Series&quot;, accepted by <i>Environmentrics</i>.
       </Text>
       </Section>
 
@@ -24,7 +24,7 @@ const Works = () => (
 
       <Section>
       <Text>
-      <u>Wang, H.</u> and Cao, J., 2021, &quot;Functional Nonlinear Learning&quot;, under invited revision for <i>Journal of Computational and Graphical Statistics</i>.
+      <u>Wang, H.</u> and Cao, J., 2023, &quot;Functional Nonlinear Learning&quot;, accepted by <i>Journal of Computational and Graphical Statistics</i>.
       
       </Text>
       </Section>

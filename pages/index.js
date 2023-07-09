@@ -44,7 +44,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Haixu Wang
           </Heading>
-          <p>Ph.D. Candidate @ Department of Statistics, Simon Fraser University</p>
+          <p>Assistant Professor </p>
         </Box>
         <Box
           flexShrink={0}
@@ -78,12 +78,10 @@ const Home = () => (
           About me
         </Heading>
         <Paragraph>
-          Haixu is a PhD student in the
-          <NextLink href="https://www.sfu.ca/stat-actsci.html" passHref scroll={false}>
-            <Link> Department of Statistics and Acturial Science</Link>
-          </NextLink> at Simon Fraser University, Burnaby, B.C., Canada. He&apos;s currently working under the supervision of  <NextLink href="https://www.sfu.ca/science/stat/cao/" passHref scroll={false}>
-            <Link> Dr. Jiguo Cao</Link>
-          </NextLink>. Haixu has a passion for research and solving real-world problems. 
+          Haixu is working as an assistant professor in
+          <NextLink href="https://science.ucalgary.ca/mathematics-statistics/research/research-areas/statistics" passHref scroll={false}>
+            <Link> Department of Mathematics and Statistics</Link>
+          </NextLink> at University of Calgary, Alberta, Canada. Haixu has a passion for research and solving real-world problems. 
 
   
         </Paragraph>
@@ -146,10 +144,10 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I enjoy
+          Student/postdoc recruiting:
         </Heading>
         <Paragraph>
-        Sports, Music, Digital Drawing, Programming, History
+          I am looking for motivated students who want to work towards a Master or PhD degree. I also welcome highly qualified PhDs who want to work as a Postdoc to build state-of-the-art machine learning algorithms and statistical models. A strong background in mathematics, statistics, or computing science is highly valued. Full financial support will be provided for PhD students and postdocs. If you are interested, send me an email including your CV and letter of interest. 
         </Paragraph>
       </Section>
 
@@ -177,7 +175,7 @@ const Home = () => (
         colorScheme="teal"
         leftIcon={<IoMail />}
         >
-        haixuw@sfu.ca
+        haixu.wang@ucalgary.ca
         </Button>
         
         </ListItem>
