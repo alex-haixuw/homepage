@@ -12,7 +12,7 @@ return (
 
 
 
-      <iframe src="https://docs.google.com/gview?url=https://github.com/alex-haixuw/homepage/raw/master/public/haixuwang_cv.pdf&embedded=true" frameBorder="0" height="1100" width="850"></iframe>
+      <iframe src="https://docs.google.com/gview?url=https://github.com/alex-haixuw/homepage/raw/Web/public/haixuwang_cv.pdf&embedded=true" frameBorder="0" height="1100" width="850"></iframe>
 
 
 
