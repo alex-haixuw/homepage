@@ -33,7 +33,7 @@ const Works = () => (
       
       <Section>
       <Text>
-        <u>Wang, H.</u> and Cao, J., 2021, &quot;Functional Principal Component Analysis for Multiple Variables on Different Riemannian Manifolds&quot;, under invited revision for <i>Journal of Agricultural, Biological and Environmental Statistics</i>.
+        <u>Wang, H.</u> and Cao, J., 2021, &quot;Functional Principal Component Analysis for Multiple Variables on Different Riemannian Manifolds&quot;, accepted by <i>Journal of Agricultural, Biological and Environmental Statistics</i>.
       </Text>
       </Section>
 

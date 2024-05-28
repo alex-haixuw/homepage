@@ -78,7 +78,7 @@ const Home = () => (
           About me
         </Heading>
         <Paragraph>
-          Haixu is working as an assistant professor in
+          Haixu is working as an assistant professor in Statistics at
           <NextLink href="https://science.ucalgary.ca/mathematics-statistics/research/research-areas/statistics" passHref scroll={false}>
             <Link> Department of Mathematics and Statistics</Link>
           </NextLink> at University of Calgary, Alberta, Canada. Haixu has a passion for research and solving real-world problems. 
